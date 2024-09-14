@@ -1,0 +1,16 @@
+[
+    {
+        "dni": "12345678",
+        "nombre": "pedro",
+        "apellido": "lopez",
+        "fechanac": "05-06-98",
+        "email": "pedro@gmail.com"
+    },
+    {
+        "dni": "12121212",
+        "nombre": "federico",
+        "apellido": "lopez",
+        "fechanac": "08-06-02",
+        "email": "fede@fede.com"
+    }
+]

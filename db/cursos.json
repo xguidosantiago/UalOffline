@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "nombre": "c\u00e1lculo",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 2,
+        "nombre": "fisica",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-27",
+        "eliminado": 1
+    },
+    {
+        "id": 1,
+        "nombre": "c\u00e1lculo",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 2,
+        "nombre": "fisica II",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "04-05-24",
+        "eliminado": 1
+    },
+    {
+        "id": 3,
+        "nombre": "estadistica",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "07-07-24",
+        "eliminado": 1
+    },
+    {
+        "id": 4,
+        "nombre": "programacion estructurada",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "06-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 1,
+        "nombre": "c\u00e1lculo",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 2,
+        "nombre": "fisica",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-27",
+        "eliminado": 1
+    },
+    {
+        "id": 1,
+        "nombre": "c\u00e1lculo",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "03-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 2,
+        "nombre": "fisica II",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "04-05-24",
+        "eliminado": 1
+    },
+    {
+        "id": 3,
+        "nombre": "estadistica",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "07-07-24",
+        "eliminado": 1
+    },
+    {
+        "id": 4,
+        "nombre": "programacion estructurada",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "06-06-24",
+        "eliminado": 1
+    },
+    {
+        "id": 5,
+        "nombre": "matematica discreta",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "05-05-24",
+        "eliminado": 0
+    },
+    {
+        "id": 6,
+        "nombre": "fisica II",
+        "fechaInicio": "03-03-24",
+        "fechaFin": "05-05-24",
+        "eliminado": 1
+    },
+    {
+        "id": 7,
+        "nombre": "probabilidad y estadistica",
+        "fechaInicio": "10-03-24",
+        "fechaFin": "07-05-24",
+        "eliminado": 1
+    },
+    {
+        "id": 8,
+        "nombre": "asd",
+        "fechaInicio": "as",
+        "fechaFin": "as",
+        "eliminado": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Fisica",
+        "fechaInicio": "05-03-24",
+        "fechaFin": "06-07-24",
+        "eliminado": 0
+    },
+    {
+        "id": 10,
+        "nombre": "quimica",
+        "fechaInicio": "05-04-24",
+        "fechaFin": "10-07-24",
+        "eliminado": 0
+    }
+]
