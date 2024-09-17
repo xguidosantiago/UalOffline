@@ -4,15 +4,27 @@
         "idAlumno": "12345678"
     },
     {
-        "idCurso": "10",
-        "idAlumno": "12121212"
-    },
-    {
         "idCurso": "9",
         "idAlumno": "12121212"
     },
     {
         "idCurso": "5",
+        "idAlumno": "12121212"
+    },
+    {
+        "idCurso": "10",
+        "idAlumno": "2"
+    },
+    {
+        "idCurso": "10",
+        "idAlumno": "2222"
+    },
+    {
+        "idCurso": "10",
+        "idAlumno": "22222222"
+    },
+    {
+        "idCurso": "10",
         "idAlumno": "12121212"
     }
 ]

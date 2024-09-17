@@ -17,6 +17,7 @@ def listarInscripciones():
     flagCurso = 0
     Cursos = []
     b.bannerInsc()
+
     if os.path.exists(path_inscripciones):
         with open(path_inscripciones, "r") as jsi:
             inscripciones = json.load(jsi)
@@ -95,29 +96,41 @@ def cargarInscripcion(idcurso):
                     for alumno in alumnos:
                         print(f" dni: {alumno["dni"]}, nombre: {alumno["nombre"]}, apellido: {alumno["apellido"]}, fecha de nacimiento: {alumno["fechanac"]}, email: {alumno["email"]}")
                     print("-------------------")
-                    idAlumno = input ("Ingrese DNI de alumno > ")
+                    idAlumno = input ("Ingrese DNI de alumno (ingrese 0 para volver) > ")
 
                     inscripcion={"idCurso": idcurso,
                                 "idAlumno": idAlumno}
+
+        if int(idAlumno) == 0:
+                listarInscripciones()
+        else: 
+
+                for inscripto in lstInscripciones:
+                    if inscripto["idCurso"] == inscripcion["idCurso"]:
+                        if inscripto["idAlumno"] == inscripcion["idAlumno"]:
+                            inscriptoFlag = 1
+                            
+                if inscriptoFlag == 1:
+                    print(f"El alumno ya se encuentra inscripto al curso")
                     
-        for inscripto in lstInscripciones:
-            if inscripto["idCurso"] == inscripcion["idCurso"]:
-                if inscripto["idAlumno"] == inscripcion["idAlumno"]:
-                    inscriptoFlag = 1
-                    
-        if inscriptoFlag == 1:
-            print(f"El alumno ya se encuentra inscripto al curso")
-            
-            input("presione enter para continuar")
-            listarInscripciones() 
-        else:   
-            lstInscripciones.append(inscripcion)
-            with open(path_inscripciones, "w") as jsi:
-                    json.dump(lstInscripciones, jsi, indent=4)
-            print(f"\ninscripción realizada exitosamente")
-            
-            input("presione enter para continuar")
-            goback =listarInscripciones()              
+                    input("presione enter para continuar")
+                    cargarInscripcion(idcurso) 
+
+                else:
+                    with open(path_alumnos, "r") as js:
+                        alumnos = json.load(js)
+                        flagDNI = 0
+                        for alumno in alumnos:
+                            if idAlumno == alumno["dni"]: 
+                                flagDNI = 1 
+                        if flagDNI == 1:
+                            lstInscripciones.append(inscripcion)
+                            with open(path_inscripciones, "w") as jsi:
+                                    json.dump(lstInscripciones, jsi, indent=4)
+                            print(f"\ninscripción realizada exitosamente")
+                        else:
+                            input("no se encontró alumno, intente nuevamente")
+                            cargarInscripcion(idcurso)              
      else:
         print("\nNo hay alumnos cargados.")
 
