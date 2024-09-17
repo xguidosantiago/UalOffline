@@ -3,7 +3,7 @@ import scripts.banner as b
 import hashlib
 import os
 import json
-import getpass
+import getpass as g
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 path_users = os.path.join(base_path, 'db', 'users.json')
@@ -15,7 +15,7 @@ def login():
     os.system("cls")
     b.clsBanner()
     usuario = input("Usuario: ")
-    password = getpass.getpass("Contraseña: ")
+    password = g.getpass("Contraseña: ")
 
     hashed_pass = hash_string(password)
 
@@ -29,7 +29,6 @@ def login():
             login()
 
 if __name__ == "__main__":
-    
     login()
     
         
