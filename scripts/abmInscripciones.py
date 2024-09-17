@@ -104,7 +104,6 @@ def cargarInscripcion(idcurso):
         if int(idAlumno) == 0:
                 listarInscripciones()
         else: 
-
                 for inscripto in lstInscripciones:
                     if inscripto["idCurso"] == inscripcion["idCurso"]:
                         if inscripto["idAlumno"] == inscripcion["idAlumno"]:

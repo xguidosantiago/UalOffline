@@ -10,7 +10,7 @@ import scripts.colors as co
 
 
 def showmenu():
-    b.clsBanner()
+    os.system("cls")
     b.bannerMenu()
     #print("\n# MENU #")
     print("1. Ver Cursos")
