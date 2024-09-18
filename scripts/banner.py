@@ -70,6 +70,22 @@ def bannerMenu():
 
     print(font)
 
+def bannerMan():
+    os.system("cls")
+    font = f"""
+
+    
+{CO.YELLOW}███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗ █████╗ ██╗     
+{CO.YELLOW}████╗ ████║██╔══██╗████╗  ██║██║   ██║██╔══██╗██║     
+{CO.YELLOW}██╔████╔██║███████║██╔██╗ ██║██║   ██║███████║██║     
+{CO.YELLOW}██║╚██╔╝██║██╔══██║██║╚██╗██║██║   ██║██╔══██║██║     
+{CO.YELLOW}██║ ╚═╝ ██║██║  ██║██║ ╚████║╚██████╔╝██║  ██║███████╗
+{CO.YELLOW}╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝                                                                                                         
+    {CO.END} 
+ """
+
+    print(font)
+
 
 if __name__ == "__main__":
     clsBanner()
@@ -77,4 +93,5 @@ if __name__ == "__main__":
     bannerAlumnos()
     bannerInsc()
     bannerMenu()
+    bannerMan()
     

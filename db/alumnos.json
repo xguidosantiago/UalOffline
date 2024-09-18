@@ -7,17 +7,17 @@
         "email": "pedro@gmail.com"
     },
     {
-        "dni": "12121212",
-        "nombre": "federico",
-        "apellido": "lopez",
-        "fechanac": "08-06-02",
-        "email": "fede@fede.com"
-    },
-    {
         "dni": "22222222",
         "nombre": "matias",
         "apellido": "perez",
         "fechanac": "06-06-01",
         "email": "matias@gmail.com"
+    },
+    {
+        "dni": "12121212",
+        "nombre": "federico",
+        "apellido": "gimenez",
+        "fechanac": "08-06-02",
+        "email": "fede@fede.com"
     }
 ]

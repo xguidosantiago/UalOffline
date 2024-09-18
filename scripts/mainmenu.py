@@ -6,6 +6,7 @@ import scripts.misregex as r
 import os
 import time
 import scripts.colors as co
+import scripts.manual as m
 
 
 
@@ -16,7 +17,8 @@ def showmenu():
     print("1. Ver Cursos")
     print("2. Ver alumnos")
     print("3. Ver Inscripciones")
-    print("4. Salir")
+    print("4. Manual de usuario")
+    print("5. Salir")
     opcion = input(f"{co.BOLD}\nSeleccione una opcion > {co.REG}")
     if r.esNumero(opcion):
         opcion = int(opcion)
@@ -27,6 +29,8 @@ def showmenu():
         if opcion == 3:
             i.listarInscripciones()
         if opcion == 4:
+            m.printManual()
+        if opcion == 5:
             print("\nMuchas gracias por utilizar UAL OFFLINE")
             print("Cerrando Sistema...")
             time.sleep(2)
