@@ -23,7 +23,7 @@ def printManual():
     print("En primera instancia nos vamos a encontrar con un login, el cual implementa getpass para evitar mostrar la contraseña al tipearla. ")
     print("Esta contraseña se encuentra hasheada en la base de datos con el algoritmo SHA-256 para asegurar que no se pueda visualizar al acceder a la db ")
     print("de usuarios (users.json). Por este motivo, al ingresar la contraseña en el menú de login, primero debe ser hasheada y luego comparada con la que ")
-    print("se encuentra almancenada en la base de datos. En caso de coincidir, vamos a poder acceder al menú principal. Caso contrario, se llamará recurisvamente") 
+    print("se encuentra almancenada en la base de datos. En caso de coincidir, vamos a poder acceder al menú principal. Caso contrario, se llamará recursivamente") 
     print("a la funcion de login para volver a ingresar los datos.")
     print("")
     print("Una vez dentro del menú principal nos encontraremos con 3 opciones referidas al ABM: ver cursos, ver alumnos y ver inscripciones. ")
